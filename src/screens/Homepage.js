@@ -1,14 +1,7 @@
 import React, { useState, useEffect } from "react";
-import {
-  View,
-  Text,
-  StyleSheet,
-  TextInput,
-  TouchableOpacity,
-  FlatList,
-} from "react-native";
+import { View, Text, StyleSheet, TextInput, TouchableOpacity, FlatList} from "react-native";
 import Card from "../components/Card";
-import { COLORS, SHADOW } from "../utils";
+import { COLORS } from "../utils";
 import axios from "axios";
 
 export default function Homepage() {
@@ -30,7 +23,7 @@ export default function Homepage() {
         });
       setValue("");
     } else {
-      alert("No les todos tos workos");
+      alert("No todos to work");
     }
   }
 
