@@ -120,5 +120,9 @@ const styles = StyleSheet.create({
     fontSize: 24,
     marginBottom: 17,
     color: COLORS.secondary,
+    padding: 10,
+    margin: 0,
+    backgroundColor: "grey",
+    borderRadius: 8
   },
 });
